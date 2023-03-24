@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T15:14:05.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4Qb34dFLEWGEn6VHO9e-" version="21.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-24T15:40:50.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="p6RuA0OsWSV91mpS5J6V" version="21.1.0" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -850,19 +850,19 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="ページ2のコピー" id="hI22fPLMEgx9Jc2XKx_F">
+  <diagram name="仮決定" id="hI22fPLMEgx9Jc2XKx_F">
     <mxGraphModel dx="1372" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-0" />
         <mxCell id="xxpF1XN8nlHOWghN1tI3-1" parent="xxpF1XN8nlHOWghN1tI3-0" />
         <mxCell id="xxpF1XN8nlHOWghN1tI3-2" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=1;" edge="1" parent="xxpF1XN8nlHOWghN1tI3-1" source="xxpF1XN8nlHOWghN1tI3-4" target="xxpF1XN8nlHOWghN1tI3-104">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="380" y="720" as="sourcePoint" />
-            <mxPoint x="480" y="620" as="targetPoint" />
+            <mxPoint x="300" y="720" as="sourcePoint" />
+            <mxPoint x="400" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-3" value="特性" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="720" y="40" width="160" height="130" as="geometry" />
+          <mxGeometry x="600" y="40" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-3">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -904,7 +904,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-13" value="技" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="720" y="200" width="160" height="190" as="geometry" />
+          <mxGeometry x="600" y="200" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-13">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -914,7 +914,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xxpF1XN8nlHOWghN1tI3-16" value="weapon_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-14">
+        <mxCell id="xxpF1XN8nlHOWghN1tI3-16" value="attack_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-14">
           <mxGeometry x="30" width="130" height="30" as="geometry">
             <mxRectangle width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1056,12 +1056,12 @@
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-54" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=1;" edge="1" parent="xxpF1XN8nlHOWghN1tI3-1" source="xxpF1XN8nlHOWghN1tI3-14" target="xxpF1XN8nlHOWghN1tI3-115">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="420" y="175" as="sourcePoint" />
-            <mxPoint x="500" y="205" as="targetPoint" />
+            <mxPoint x="340" y="175" as="sourcePoint" />
+            <mxPoint x="420" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-55" value="ポケモン" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="40" width="160" height="340" as="geometry">
+          <mxGeometry x="240" y="40" width="160" height="340" as="geometry">
             <mxRectangle x="280" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1196,7 +1196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-86" value="プロパティ" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="720" y="400" width="160" height="130" as="geometry">
+          <mxGeometry x="600" y="400" width="160" height="130" as="geometry">
             <mxRectangle x="120" y="120" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1240,7 +1240,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-97" value="ポケモン特性" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="520" y="40" width="120" height="130" as="geometry">
+          <mxGeometry x="440" y="40" width="120" height="130" as="geometry">
             <mxRectangle x="520" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1285,12 +1285,12 @@
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-107" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;" edge="1" parent="xxpF1XN8nlHOWghN1tI3-1" source="xxpF1XN8nlHOWghN1tI3-56" target="xxpF1XN8nlHOWghN1tI3-101">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="970" y="15" as="sourcePoint" />
-            <mxPoint x="860" y="115" as="targetPoint" />
+            <mxPoint x="930" y="15" as="sourcePoint" />
+            <mxPoint x="820" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-108" value="ポケモン技" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="520" y="200" width="120" height="130" as="geometry">
+          <mxGeometry x="440" y="200" width="120" height="130" as="geometry">
             <mxRectangle x="520" y="200" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1328,22 +1328,22 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xxpF1XN8nlHOWghN1tI3-117" value="ability_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-115">
+        <mxCell id="xxpF1XN8nlHOWghN1tI3-117" value="attack_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-115">
           <mxGeometry x="30" width="90" height="30" as="geometry">
             <mxRectangle width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-118" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=1;strokeColor=default;" edge="1" parent="xxpF1XN8nlHOWghN1tI3-1" source="xxpF1XN8nlHOWghN1tI3-56" target="xxpF1XN8nlHOWghN1tI3-112">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="970" y="215" as="sourcePoint" />
-            <mxPoint x="870" y="295" as="targetPoint" />
+            <mxPoint x="930" y="215" as="sourcePoint" />
+            <mxPoint x="830" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-119" value="デオキシスのように複数持つ場合もある" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="720" y="530" width="240" height="30" as="geometry" />
+          <mxGeometry x="580" y="530" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-120" value="グッズ" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="400" width="160" height="130" as="geometry">
+          <mxGeometry x="240" y="400" width="160" height="130" as="geometry">
             <mxRectangle x="280" y="400" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1387,7 +1387,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-130" value="ポケモンのどうぐ" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="560" width="160" height="130" as="geometry">
+          <mxGeometry x="240" y="560" width="160" height="130" as="geometry">
             <mxRectangle x="280" y="560" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1431,7 +1431,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-140" value="サポート" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="719" width="160" height="130" as="geometry">
+          <mxGeometry x="240" y="719" width="160" height="130" as="geometry">
             <mxRectangle x="280" y="719" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1475,10 +1475,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xxpF1XN8nlHOWghN1tI3-150" value="どうぐによって特性や技が追加されるパターンはどうする" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="689" width="340" height="30" as="geometry" />
+          <mxGeometry x="240" y="689" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsiemW5NC1hftPPnzfPl-0" value="スタジアム" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xxpF1XN8nlHOWghN1tI3-1">
-          <mxGeometry x="280" y="880" width="160" height="130" as="geometry">
+          <mxGeometry x="240" y="880" width="160" height="130" as="geometry">
             <mxRectangle x="280" y="880" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
