@@ -3036,7 +3036,7 @@
         <mxCell id="rcAG0UwhAc1OHZTa9Slf-1" value="プレイヤーができる行動は、番に1回の権利行使、特性の使用、カードの使用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="kwOPTpGJWhXFUL-NSQw2-18" vertex="1">
           <mxGeometry y="240" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xUfHfPvgJiBSCtxxBqnX-1" value="ルール処理に関係ない情報は読まない" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kwOPTpGJWhXFUL-NSQw2-18">
+        <mxCell id="xUfHfPvgJiBSCtxxBqnX-1" value="ルール処理に関係ない情報は読まない" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="kwOPTpGJWhXFUL-NSQw2-18" vertex="1">
           <mxGeometry y="270" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kwOPTpGJWhXFUL-NSQw2-22" value="テンポラリー" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -3052,6 +3052,15 @@
         </mxCell>
         <mxCell id="kwOPTpGJWhXFUL-NSQw2-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kwOPTpGJWhXFUL-NSQw2-22" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qCoNXkgEkA0oHloqK1hB-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PostgreSQLでtable作成&lt;/h1&gt;&lt;p&gt;create table public.ptcglist (&lt;/p&gt;&lt;p&gt;&amp;nbsp; card_id integer not null&lt;/p&gt;&lt;p&gt;&amp;nbsp; , card_name character varying(24) not null&lt;/p&gt;&lt;p&gt;&amp;nbsp; , regulation character(1) not null&lt;/p&gt;&lt;p&gt;&amp;nbsp; , expansion character varying(8) not null&lt;/p&gt;&lt;p&gt;&amp;nbsp; , collector_card_number integer not null&lt;/p&gt;&lt;p&gt;&amp;nbsp; , image_name character varying(24)&lt;/p&gt;&lt;p&gt;&amp;nbsp; , illustrator character varying(24)&lt;/p&gt;&lt;p&gt;&amp;nbsp; , rarity character varying(4)&lt;/p&gt;&lt;p&gt;&amp;nbsp; , mirror boolean&lt;/p&gt;&lt;p&gt;&amp;nbsp; , update_time timestamp(6) without time zone&lt;/p&gt;&lt;p&gt;&amp;nbsp; , primary key (card_id)&lt;/p&gt;&lt;p&gt;);&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="360" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qCoNXkgEkA0oHloqK1hB-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="680" as="sourcePoint" />
+            <mxPoint x="680" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
